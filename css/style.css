@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a{
+	outline:none;
+	}
+img {
+	border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;}
+	#banner{
+		width:670px;
+		height:329px;
+		margin:0 auto;
+		position:relative;
+		}
+.pic {width:670px;height:329px;overflow:hidden;}
+.pic ul li{
+	float:left;
+	}
+#mar3Nav{
+	position:absolute;
+	right:30px;
+	bottom:10px;
+	}
+#mar3Nav ul li{
+	float:left;
+	width:18px;
+	height:18px;
+	background:#333;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	line-height:18px;
+	margin-right:5px;
+	cursor:pointer;
+	border-radius:18px;
+	text-indent:30px;
+	overflow:hidden;
+	}
+#mar3Nav ul  .navOn{
+	background:#f60;
+
+	}
+#main{
+	height:345px;
+	background:#191919;
+	}
+.main_inner{
+	width:1116px;
+	height:345px;
+	margin:0 auto;
+	}
+.main_bot{
+	width:1116px;
+	height:255px;
+	overflow:hidden;
+	}
+.main_bot ul li{
+	float:left;
+	width:288px;
+	}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>y-2-h</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $('nav').hover(function(){
+		$('.navul>ul').stop().slideDown()
+		},function(){
+		$('.navul>ul').stop().slideUp()
+			})
+	$(window).scroll(function(){
+		if($(window).scrollTop()>200){
+			$('.nav2').show()}
+			else{
+			$('.nav2').hide()}
+	})
+	$('.fancybox').fancybox();
+});
+</script>
+</head>
+
+<body>
+<header>
+	<div class="nav2">
+    	<div class="nav2_inner">
+        	<ul>
+            	<li><div class="baikuai"></div><a href="#header"><span>00</span>首页</a></li>
+            	<li><a href="#idjianjie"><span>01</span>简介</a></li>
+            	<li><a href="#idjineng"><span>02</span>技能</a></li>
+            	<li><a href="#idwork"><span>03</span>作品</a></li>
+            	<li><a href="#idcon"><span>04</span>联系</a></li>
+            </ul>
+        </div>  
+    </div>
+  	<div class="banner"><img src="images/banner_02.jpg">
+    	<i class="fa fa-angle-double-down"></i>
+    </div>
+    <nav><img src="images/nav_05.jpg">
+    	<div class="navul">
+        	<ul>
+            	<li><a href="#header"><span>00</span><br>首页</a></li>
+            	<li><a href="#idjianjie"><span>01</span><br>简介</a></li>
+            	<li><a href="#idjineng"><span>02</span><br>技能</a></li>
+            	<li><a href="#idwork"><span>03</span><br>作品</a></li>
+            	<li><a href="#idcon"><span>04</span><br>联系</a></li>
+            </ul>
+        </div>
+  	</nav>
+</header>
+<div class="jianjie" id="idjianjie">
+	<div class="jianjie_left">
+    	<div class="yinhao"><img src="images/yinhao_10.jpg"></div>
+        <p>这就是我<br>一名专业而逗碧<br>的<br>
+        射鸡湿。<br></p>
+    </div>
+    <div class="pic"><img src="images/gerenzhaopian_10.jpg">
+    	<h2>01</h2>
+    </div>
+    <div class="jianjie_right"></div>
+</div>
+<div class="beijing"></div>
+<div class="jineng" id="idjineng">
+	<div class="jineng_inner">
+    	<div class="wenzi">
+        	<p>掌握这些技能<br>然并卵，因为少<br>了我的灵魂</p>
+        </div>
+        <div class="jinengfen"><img src="images/jinengfen_22.jpg"></div>
+    </div>
+    <div class="shuzi">
+    	<h2>02</h2>
+    </div>
+</div>
+<div class="work" id="idwork">
+	<div class="work_inner">
+		<div class="work_top">
+        	<div class="xiantiao2"></div>    		
+            <h2>03</h2>
+        	<p>我只做&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我想要的</p>
+   	 	</div>
+    	<div class="mutou">
+        	<ul>
+            	<li><a class="fancybox" href="images/shuangshiyi.jpg" data-fancybox-group="gallery" title="双十一专题页"><img src="images/mutou_26.jpg"></a><h4></h4><p></p></li>
+            	<li><a class="fancybox" href="images/shouye.jpg" data-fancybox-group="gallery" title="企业站首页"><img src="images/main2_pic_17.jpg" /></a><h4></h4><p>25th September 2012</p></li>
+            	<li><a class="fancybox" href="images/chanpin.jpg" data-fancybox-group="gallery" title="企业站产品页"><img src="images/main2_pic_19.jpg" /></a><h4></h4><p>25th September 2012</p></li>
+            	<li><a class="fancybox" href="images/gongsi.jpg" data-fancybox-group="gallery" title="企业站公司介绍"><img src="images/main2_pic_2_07.jpg"/></a><h4></h4><p>25th September 2012</p></li>
+            	<li><a class="fancybox" href="images/nikang.jpg" data-fancybox-group="gallery" title="FLASH网页滚动海报"><img src="images/main2_pic_2_09.jpg"/></a><h4></h4><p>25th September 2012</p></li>
+            	<li><a class="fancybox" href="images/shizhong.jpg" data-fancybox-group="gallery" title="AE动画"><img src="images/main2_pic_23.jpg" /></a><h4></h4><p>25th September 2012</p></li>            
+            </ul>
+        </div>
+        <div class="yu"><img src="images/yu11.png"></div>
+    </div>
+</div>
+<div class="contact" id="idcon">
+	<div class="con_inner">
+    	<div class="con_left"><img src="images/contact_33.jpg"></div>
+        <div class="con_right">
+        	<h2>04</h2>
+            <p>感恩</p>
+            <div class="wechat">Wechat :  yzh20810735</div>
+            <div class="phone">phone :  18267725600</div>
+            <h6>Thinks for watching.</h6>
+        </div>
+        <div class="yinhao2"><img src="images/yinhao2_33.jpg"></div>
+    </div>
+</div>
+</body>
+</html>
